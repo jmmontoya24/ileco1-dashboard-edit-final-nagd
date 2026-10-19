@@ -1,0 +1,40 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+.venv/
+venv_new/
+.venv-rasa/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Generated files and logs
+logs/
+instance/
+*.log
+*.bak
+
+# Frontend dependencies
+node_modules/
+
+# Local archives and database backups
+*.tar.gz
+*.zip
+*.dump
+*.backup
+
+# Customer uploads and submitted evidence
+uploads/
+
+# Accidental local artifacts
+gcloud
+git
